@@ -1,0 +1,17 @@
+export default [
+  { _id: "A101", title: "Propulsion Assignment", course: "CS2500" },
+  { _id: "A102", title: "Combustion Analysis", course: "CS2500" },
+  { _id: "A103", title: "Nozzle Design Project", course: "CS2500" },
+  { _id: "A201", title: "Aerodynamics Quiz", course: "CS2510" },
+  { _id: "A202", title: "Flow Analysis", course: "CS2510" },
+  { _id: "A203", title: "Heating Analysis", course: "CS2510" },
+  { _id: "A301", title: "Structural Design Task", course: "CS3000" },
+  { _id: "A302", title: "Orbital Calculations", course: "CS3000" },
+  { _id: "A303", title: "Systems Engineering Exam", course: "CS3000" },
+  { _id: "A401", title: "Spacecraft Design Project", course: "CS3500" },
+  { _id: "A402", title: "Spacecraft Propulsion", course: "CS3500" },
+  { _id: "A403", title: "Spacecraft Systems", course: "CS3500" },
+  { _id: "A501", title: "Aircraft Design Project", course: "CS1200" },
+  { _id: "A502", title: "Aircraft Propulsion", course: "CS1200" },
+  { _id: "A503", title: "Aircraft Systems", course: "CS1200" },
+];
