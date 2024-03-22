@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "kanbas-node-server-app",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorli112/kanbas-node-server-app.git"
+  },
+  "author": "Victor Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorli112/kanbas-node-server-app/issues"
+  },
+  "homepage": "https://github.com/victorli112/kanbas-node-server-app#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.1"
+  }
+}
