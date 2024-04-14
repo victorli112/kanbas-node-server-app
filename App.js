@@ -8,8 +8,9 @@ import Lab5 from "./Lab5.js";
 import cors from "cors";
 import CourseRoutes from "./Courses/routes.js";
 import ModuleRoutes from "./Modules/routes.js";
-
-mongoose.connect("mongodb://192.168.1.132:27017/kanbas");
+const CONNECTION_STRING =
+  process.env.DB_CONNECTION_STRING || "mongodb://192.168.1.132:27017/kanbas";
+mongoose.connect(CONNECTION_STRING);
 const app = express();
 app.use(
   cors({
