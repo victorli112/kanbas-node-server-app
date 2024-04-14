@@ -6,8 +6,8 @@ import UserRoutes from "./Users/routes.js";
 import Hello from "./Hello.js";
 import Lab5 from "./Lab5.js";
 import cors from "cors";
-import CourseRoutes from "./Kanbas/courses/routes.js";
-import ModuleRoutes from "./Kanbas/modules/routes.js";
+import CourseRoutes from "./Courses/routes.js";
+import ModuleRoutes from "./Modules/routes.js";
 
 mongoose.connect("mongodb://192.168.1.132:27017/kanbas");
 const app = express();
