@@ -18,8 +18,12 @@ const allowedOrigins = [
   ...branches.map((branch) => `https://${branch}--${strippedNetlifyUrl}`),
 ];
 
-const CONNECTION_STRING =
+var CONNECTION_STRING =
   process.env.DB_CONNECTION_STRING || "mongodb://192.168.1.132:27017/kanbas";
+
+if (process.env.NODE_ENV == "development") {
+  CONNECTION_STRING = "mongodb://192.168.1.132:27017/kanbas";
+}
 mongoose.connect(CONNECTION_STRING);
 const app = express();
 const sessionOptions = {
